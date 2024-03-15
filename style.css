@@ -1,0 +1,36 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    color: #ffffff;
+}
+
+
+#skills {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#skills th, #skills td {
+    border: 1px solid #ff002f;
+    padding: 8px;
+}
+
+#skills tr:nth-child(even) {
+    background-color: #e10d3b;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#skills tr:nth-child(odd) {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#skills th {
+    background-color: #07f0a2;
+    color: rgb(0, 179, 255);
+}
+
+html {
+    background-color: #2bc3ff;
+}
