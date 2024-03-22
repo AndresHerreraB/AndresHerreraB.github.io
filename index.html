@@ -2,77 +2,146 @@
 <html>
 
 <head>
-
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <title>Lab 1</title>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 <script src='script.js'></script>
-
 </head>
 
 <body>
-    <h1>Andres Herrera</h1>
-    <p>Major: Industrial Civil Engineering</p>
-    <p>Year of University Enrollment: 2021</p>
-    <p>My github link: <a href="https://github.com/AndresHerreraB/AndresHerreraB.github.io.git">Press Here</a></p>
-    <p>I like to play soccer, I was good at soccer until I injured my knee, I’m not lying I had a future to play at Real Madrid (I’m very bad). I also like video games and movies.</p>
-    <h2> My Skills:</h2>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://sodimac.falabella.com/sodimac-cl">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="https://www.instagram.com/aherrerabugge/">About Me</a>
+              <a class="nav-link" href="https://www.uandes.cl">Education</a>
+              <a class="nav-link" href="https://www.youtube.com/watch?v=Y8fzrHlgb0E">My Inspiration</a>
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-    <table id="skills">
-        <tr>
-            <td>Skills</td>
-            <td>Level</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>Advace</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>Basic</td>
-        </tr>
-        <tr>
-            <td>HTML/CSS</td>
-            <td>Basic</td>
-        </tr>
-        <tr>
-            <td>Git</td>
-            <td>Basic</td>
-        </tr>
-        <tr>
-            <td>Excel</td>
-            <td>Medium</td>
-        </tr>
-        <tr>
-            <td>SQL</td>
-            <td>Medium</td>
-        </tr>
-        <tr>
-            <td>English</td>
-            <td>Advance</td>
-        </tr>
-        <tr>
-            <td>Spanish</td>
-            <td>Native</td>
-        </tr>
-        <tr>
-            <td>Soccer</td>
-            <td>Injured</td>
-        </tr>
-        <tr>
-            <td>Weak Foot</td>
-            <td>4 Stars</td>
-        </tr>
-        <tr>
-            <td>Ruby</td>
-            <td>Nule</td>
-        </tr>
-    </table>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Andres Herrera</h1>
+                <p>Major: Industrial Civil Engineering</p>
+                <p>Year of University Enrollment: 2021</p>
+                <p>I like to play soccer, I was good at soccer until I injured my knee, I’m not lying I had a future to play at Real Madrid (I’m very bad). I also like video games and movies.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Me</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Email: aaherrera4@miuandes.cl</li>
+                            <li class="list-group-item">Phone: +56 9 5778 4778</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>My Skills:</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>Excel</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Spanish</td>
+                    <td>Native</td>
+                </tr>
+                <tr>
+                    <td>Soccer</td>
+                    <td>Injured</td>
+                </tr>
+                <tr>
+                    <td>Weak Foot</td>
+                    <td>4 Stars</td>
+                </tr>
+                <tr>
+                    <td>Ruby</td>
+                    <td>Null</td>
+                </tr>
+            </tbody>
+        </table>
+
+    <div class="container">
+        <h3> My Favorite Videogames:</h3>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="https://www.youtube.com/watch?v=O9ciPEwhaT4">Pes 2010</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="https://www.youtube.com/watch?v=_q51LZ2HpbE">Battlefront 2</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="https://www.youtube.com/watch?v=7jk8prJA9nI">DayZ</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="https://www.youtube.com/watch?v=LGcECozNXEw">Rust</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="https://www.youtube.com/watch?v=MKHLzFGA8o8">Mario Kart</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="https://www.youtube.com/watch?v=gmA6MrX81z4">Red Dead Redemption 2</a>
+            </div>
+        </div>
+    </div>
+
+    
     <input type="text" id="inputField">
     <button onclick="changeText()">Cambiar texto</button>
     <p id="textToChange">Texto a cambiar</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="btn-group">
+        <a href="https://github.com/AndresHerreraB/AndresHerreraB.github.io.git" class="btn btn-primary active" aria-current="page">My GitHub Link</a>
+        <a href="https://www.youtube.com/watch?v=nZKiiP1Yc84" class="btn btn-primary">Chile</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Rick</a>
+    </div>
+    
 </body>
 
 </html>
